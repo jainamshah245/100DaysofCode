@@ -1,10 +1,11 @@
-# Swap two variables without using third variable
+name = input("What should we call you?\n")
 
-a = 12
-b = 34
+print("Greeting! {}".format(name))
 
-a = a + b
-b = a - b
-a = a - b
+city = input("Enter your city in which you grew up in\n")
 
-print(a, b)
+pet_name = input("Enter your pet name\n")
+
+band_name = city + " " + pet_name
+
+print("Your Band name should be: {}".format(band_name))
